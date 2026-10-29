@@ -91,3 +91,16 @@ Billie-jean-/
 Cardinal Protocol · Avvisi Financial Intelligence
 
 *Solomon Von Herclestein*
+
+
+---
+
+## Deploy (Cloudflare Pages)
+
+`index.html` at the repo root is the deployable site (self-contained: diagrams are embedded as base64, audio is synthesized in-browser via Web Audio API).
+
+1. pages.cloudflare.com → Create project → Connect to Git → select this repo
+2. Framework preset: None · Build command: *(empty)* · Output directory: `/`
+3. Deploy
+
+`html/billie_jean_published.html` is kept as the source copy.
